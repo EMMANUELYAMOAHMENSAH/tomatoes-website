@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+    <nav>
+        <a href="start.html"><img src="images/yolop.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            
+
+
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+
+    </nav>
+    
+    <h1>SIGN IN</h1>
+      </section>
+
+ <div class="loginbox">
+    <img src="images/profile.png" class="profile">
+    <h17>Login Here</h17>
+    <form>
+        <p>Username</p>
+        <input type="text" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="" placeholder="Enter Your Password">
+        <li><a href="about.html" type="submit" value="Sign Up">Submit</a><br>
+        <a href="#">Forget Password?</a><br>
+        <a href="new.html">Create a New Account</a>
+    </form>
+ </div>
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>They say that nobody is perfect. Then they tell you practice makes perfect.I wish they'd make up their minds</p>
+    <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="mail-outline"></ion-icon>
+        <ion-icon name="logo-tiktok"></ion-icon>
+        <p>Made with &#127936; by ORLANDOWORKS&#10004;</p>
+    </div>
+
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+<script>
+
+      var navlinks = document.getElementById("navlinks");
+      function showmenu(){
+           navlinks.style.right ="0";
+      }
+      function hidemenu(){
+           navlinks.style.right ="-200px";
+      }
+
+
+</script>
+
+
+</body>
+
+</html>

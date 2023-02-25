@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>KBL-MATCHES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+      <section class="sub-header">
+    <nav>
+        <a href="start.html"><img src="images/yolop.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+              <ul>
+                  <li><a href="start.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="">PLAYERS</a></li>
+                  <li><a href="matches.html">MATCHES</a></li>
+                  <li><a href="signin.html">SING IN</a></li>
+              </ul>
+
+        </div>
+        <i class="fa fa-bars"onclick="showmenu()"></i>
+
+    </nav>
+    
+    <h1>MATCHES</h1>
+      </section>
+<section>
+<div class="container">
+    <div class="match">
+        <div class="match-header">
+            <div class="match-status">live</div>
+            <div class="match-tournament"><img src="images/yolop.png" alt="KBL">KUMASI BASKETBALL LEAGUE</div>
+            <div class="match-action">
+                <button class="btn-icon"><i class="materials-icons-outlined"><ion-icon name="star-outline"></ion-icon></i></button>
+                <button class="btn-icon"><i class="materials-icons-outlined"><ion-icon name="notifications-outline"></ion-icon></i></button>
+            </div>
+        </div>
+        
+        </div>
+        <div class="match-content">
+        <div class="column"></div>
+        <div class="team team--home"></div>
+        <div class="team-logo">
+            <img src="images/klicks.png" alt="klicks">
+        </div>
+       
+        </div>
+    </div>
+    <div class="column">
+        <div class="match-details">
+            <div class="match-date">
+                16st JULY <strong>9:30AM</strong>
+            </div>
+            <div class="match-score">
+                <span class="match-score-number  match-score-number--draw">
+
+                68</span>
+            </div>
+            <div class="match-score2">
+                <span class="match-score-number  match-score-number--draw">
+
+                49</span>
+            </div>
+            <div class="match-quater">
+                0 MINS TIME LEFT
+            </div>
+            <div class="match-referre">
+                Referee : <strong>YAAYO </strong>
+            </div>
+            <div class="match-bet-options">
+                <button class="match-bet-option">2.79</button>
+                <button class="match-bet-option">20.91</button>
+                <button class="match-bet-option">4.26</button>
+            </div>
+              <button class="match-bet-place" onclick="window.location.href='https://www.betway.com.gh/?register'">Place A Bet</button>
+        </div>
+    </div>
+    <div class="match-content">
+    <div class="column"></div>
+    <div class="team team--home"></div>
+    <div class="team-logo2">
+        <img src="images/sni.png" alt="snipers">
+    </div>
+    <h5>SNIPERS</h5>
+    <h10><strong>ASAFO KLICKS</strong></h10>
+ <h11><strong>:</strong></h11>
+    </div>
+    </div>
+</div>
+
+
+</section>
+
+<section class="match2">
+    <div class="league1">
+        <div class="team1">
+            <img src="IMAGES/chiefs logo.png" alt="chiefs">
+            <b>CHIEFS BASKETBALL</b>
+        </div>
+        <div class="date2">
+            28th JULY <strong>9:30AM</strong>
+        </div>
+        <div class="scores">
+            <span class="match-score-number  match-score-number--draw">
+
+            0</span>
+        </div>
+        <div class="scores1">
+            <span class="match-score-number  match-score-number--draw">
+
+            0</span>
+        </div>
+        <div class="mins">
+            12 MINS eash quater
+        </div>
+        <div class="ref">
+            Referee : <strong>YAAYO </strong>
+        </div>
+        <div class="team2">
+            <img src="IMAGES/knust logo.png" alt="knust">
+            <b>KNUST BASKETBALL TEAM</b>
+        </div>
+          
+
+    </div>
+
+</section>
+
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>They say that nobody is perfect. Then they tell you practice makes perfect.I wish they'd make up their minds</p>
+    <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="mail-outline"></ion-icon>
+        <ion-icon name="logo-tiktok"></ion-icon>
+        <p>Made with &#127936; by ORLANDOWORKS&#10004;</p>
+    </div>
+
+</section>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+<script>
+
+      var navlinks = document.getElementById("navlinks");
+      function showmenu(){
+           navlinks.style.right ="0";
+      }
+      function hidemenu(){
+           navlinks.style.right ="-200px";
+      }
+
+
+</script>
+
+
+</body>
+
+</html>
